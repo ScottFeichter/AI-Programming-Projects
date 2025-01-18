@@ -72,6 +72,8 @@
 
 # THE SCRIPT:
 #######################
+
+
 # Create project directories
 echo "Creating project structure..."
 mkdir pern-stack-app
@@ -175,7 +177,7 @@ mkdir src/components src/pages src/services src/store
 # Create AWS deployment files
 cd ..
 cat > deploy.sh << EOL
-#!/bin/bash
+
 
 # AWS Elastic Beanstalk deployment script
 echo "Preparing for AWS deployment..."
@@ -224,7 +226,7 @@ EOL
 
 # Create start script
 cat > start.sh << EOL
-#!/bin/bash
+
 
 # Start development servers
 echo "Starting development servers..."

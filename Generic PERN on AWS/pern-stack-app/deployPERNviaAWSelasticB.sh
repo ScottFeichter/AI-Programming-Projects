@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This needs to be vetted and may be incomplete. Is there an Elastic Beanstalk cli?
+
 # AWS Elastic Beanstalk deployment script
 echo "Preparing for AWS deployment..."
 
@@ -43,3 +45,4 @@ cat > .ebignore << EOF
 .env
 node_modules
 frontend/node_modules
+EOF
