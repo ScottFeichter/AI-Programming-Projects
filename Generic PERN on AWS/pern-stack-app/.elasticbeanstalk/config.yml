@@ -1,0 +1,8 @@
+branch-defaults:
+  main:
+    environment: pern-stack-app-env
+global:
+  application_name: pern-stack-app
+  default_region: us-east-1
+  profile: null
+  sc: git
